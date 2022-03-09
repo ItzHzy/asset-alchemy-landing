@@ -7,7 +7,7 @@ const IndexPage = () => {
 			<header className='text-gray-400 bg-gray-900 body-font'>
 				<div className='container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row'>
 					<StaticImage
-						src='https://img.assetalchemy.io/LOGO_COLOR_NO_BACKGROUND.png'
+						src='https://img.assetalchemy.io/LOGO_COLOR.png'
 						alt='Logo'
 						width={250}
 					/>
@@ -17,7 +17,7 @@ const IndexPage = () => {
 					<a className='mr-5 hover:text-white'>Third Link</a>
 					<a className='mr-5 hover:text-white'>Fourth Link</a> */}
 					</nav>
-					<button className='inline-flex items-center px-3 py-1 mt-4 text-base bg-gray-800 border-0 rounded focus:outline-none hover:bg-gray-700 md:mt-0'>
+					{/* <button className='inline-flex items-center px-3 py-1 mt-4 text-base bg-gray-800 border-0 rounded focus:outline-none hover:bg-gray-700 md:mt-0'>
 						Contact Us
 						<svg
 							fill='none'
@@ -30,11 +30,12 @@ const IndexPage = () => {
 						>
 							<path d='M5 12h14M12 5l7 7-7 7'></path>
 						</svg>
-					</button>
+					</button> */}
 				</div>
 			</header>
 
 			<main>
+				{/* Main Hero */}
 				<section className='text-gray-400 bg-gray-900 body-font'>
 					<div className='container flex flex-col items-center justify-center px-5 py-24 mx-auto'>
 						<div className='w-full text-center lg:w-2/3'>
@@ -56,19 +57,18 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</section>
-
+				{/* Feature 1 */}
 				<section class='text-gray-400 bg-gray-900 body-font'>
 					<div class='container mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
 						<div class='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10'>
-							<img
-								class='object-cover object-center rounded'
-								alt='hero'
-								src='https://dummyimage.com/720x600'
+							<StaticImage
+								src='../images/following.png'
+								alt='Follow your favorite tickers'
 							/>
 						</div>
 						<div class='lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'>
 							<h1 class='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
-								Before they sold out readymade gluten
+								Follow your favorite tickers
 							</h1>
 							<p class='mb-8 leading-relaxed'>
 								Copper mug try-hard pitchfork pour-over freegan heirloom neutra
@@ -84,19 +84,18 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</section>
-
+				{/* Feature 2 */}
 				<section class='text-gray-400 bg-gray-900 body-font'>
 					<div class='container mx-auto flex px-5 py-24 md:flex-row-reverse flex-col items-center'>
 						<div class='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10'>
-							<img
-								class='object-cover object-center rounded'
-								alt='hero'
-								src='https://dummyimage.com/720x600'
+							<StaticImage
+								src='../images/overview.png'
+								alt='Follow your favorite tickers'
 							/>
 						</div>
 						<div class='lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'>
 							<h1 class='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
-								Before they sold out readymade gluten
+								View thousands of companies
 							</h1>
 							<p class='mb-8 leading-relaxed'>
 								Copper mug try-hard pitchfork pour-over freegan heirloom neutra
@@ -112,19 +111,18 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</section>
-
+				{/* Feature 3 */}
 				<section class='text-gray-400 bg-gray-900 body-font'>
 					<div class='container mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
 						<div class='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10'>
-							<img
-								class='object-cover object-center rounded'
-								alt='hero'
-								src='https://dummyimage.com/720x600'
+							<StaticImage
+								src='../images/rule.png'
+								alt='Follow your favorite tickers'
 							/>
 						</div>
 						<div class='lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'>
 							<h1 class='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
-								Before they sold out readymade gluten
+								Create complex email alerts
 							</h1>
 							<p class='mb-8 leading-relaxed'>
 								Copper mug try-hard pitchfork pour-over freegan heirloom neutra
@@ -144,9 +142,10 @@ const IndexPage = () => {
 
 			<section class='text-gray-400 bg-gray-900 body-font'>
 				<div class='container px-5 py-24 mx-auto'>
+					{/* Upcoming Features Header */}
 					<div class='text-center mb-20'>
 						<h1 class='sm:text-3xl text-2xl font-medium title-font text-white mb-4'>
-							Raw Denim Heirloom Man Braid
+							Upcoming Features
 						</h1>
 						<p class='text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80'>
 							Blue bottle crucifix vinyl post-ironic four dollar toast vegan
@@ -157,7 +156,9 @@ const IndexPage = () => {
 							<div class='w-16 h-1 rounded-full bg-indigo-500 inline-flex'></div>
 						</div>
 					</div>
+					{/* Upcoming Features List */}
 					<div class='flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6'>
+						{/* Upcoming Feature 1 */}
 						<div class='p-4 md:w-1/3 flex flex-col text-center items-center'>
 							<div class='w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0'>
 								<svg
@@ -174,14 +175,14 @@ const IndexPage = () => {
 							</div>
 							<div class='flex-grow'>
 								<h2 class='text-white text-lg title-font font-medium mb-3'>
-									Shooting Stars
+									Enhanced Alerting
 								</h2>
 								<p class='leading-relaxed text-base'>
 									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
 									taxidermy. Gastropub indxgo juice poutine, ramps microdosing
 									banh mi pug VHS try-hard.
 								</p>
-								<a class='mt-3 text-indigo-400 inline-flex items-center'>
+								{/* <a class='mt-3 text-indigo-400 inline-flex items-center'>
 									Learn More
 									<svg
 										fill='none'
@@ -194,9 +195,10 @@ const IndexPage = () => {
 									>
 										<path d='M5 12h14M12 5l7 7-7 7'></path>
 									</svg>
-								</a>
+								</a> */}
 							</div>
 						</div>
+						{/* Upcoming Feature 2 */}
 						<div class='p-4 md:w-1/3 flex flex-col text-center items-center'>
 							<div class='w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0'>
 								<svg
@@ -215,14 +217,14 @@ const IndexPage = () => {
 							</div>
 							<div class='flex-grow'>
 								<h2 class='text-white text-lg title-font font-medium mb-3'>
-									The Catalyzer
+									Calendar
 								</h2>
 								<p class='leading-relaxed text-base'>
 									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
 									taxidermy. Gastropub indxgo juice poutine, ramps microdosing
 									banh mi pug VHS try-hard.
 								</p>
-								<a class='mt-3 text-indigo-400 inline-flex items-center'>
+								{/* <a class='mt-3 text-indigo-400 inline-flex items-center'>
 									Learn More
 									<svg
 										fill='none'
@@ -235,9 +237,10 @@ const IndexPage = () => {
 									>
 										<path d='M5 12h14M12 5l7 7-7 7'></path>
 									</svg>
-								</a>
+								</a> */}
 							</div>
 						</div>
+						{/* Upcoming Feature 3 */}
 						<div class='p-4 md:w-1/3 flex flex-col text-center items-center'>
 							<div class='w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0'>
 								<svg
@@ -255,14 +258,14 @@ const IndexPage = () => {
 							</div>
 							<div class='flex-grow'>
 								<h2 class='text-white text-lg title-font font-medium mb-3'>
-									Neptune
+									Competitions
 								</h2>
 								<p class='leading-relaxed text-base'>
 									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
 									taxidermy. Gastropub indxgo juice poutine, ramps microdosing
 									banh mi pug VHS try-hard.
 								</p>
-								<a class='mt-3 text-indigo-400 inline-flex items-center'>
+								{/* <a class='mt-3 text-indigo-400 inline-flex items-center'>
 									Learn More
 									<svg
 										fill='none'
@@ -275,46 +278,151 @@ const IndexPage = () => {
 									>
 										<path d='M5 12h14M12 5l7 7-7 7'></path>
 									</svg>
-								</a>
+								</a> */}
+							</div>
+						</div>
+						{/* Upcoming Feature 4 */}
+						<div class='p-4 md:w-1/3 flex flex-col text-center items-center'>
+							<div class='w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0'>
+								<svg
+									fill='none'
+									stroke='currentColor'
+									stroke-linecap='round'
+									stroke-linejoin='round'
+									stroke-width='2'
+									class='w-10 h-10'
+									viewBox='0 0 24 24'
+								>
+									<path d='M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2'></path>
+									<circle cx='12' cy='7' r='4'></circle>
+								</svg>
+							</div>
+							<div class='flex-grow'>
+								<h2 class='text-white text-lg title-font font-medium mb-3'>
+									Create Positions
+								</h2>
+								<p class='leading-relaxed text-base'>
+									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
+									taxidermy. Gastropub indxgo juice poutine, ramps microdosing
+									banh mi pug VHS try-hard.
+								</p>
+								{/* <a class='mt-3 text-indigo-400 inline-flex items-center'>
+									Learn More
+									<svg
+										fill='none'
+										stroke='currentColor'
+										stroke-linecap='round'
+										stroke-linejoin='round'
+										stroke-width='2'
+										class='w-4 h-4 ml-2'
+										viewBox='0 0 24 24'
+									>
+										<path d='M5 12h14M12 5l7 7-7 7'></path>
+									</svg>
+								</a> */}
+							</div>
+						</div>
+						{/* Upcoming Feature 5 */}
+						<div class='p-4 md:w-1/3 flex flex-col text-center items-center'>
+							<div class='w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0'>
+								<svg
+									fill='none'
+									stroke='currentColor'
+									stroke-linecap='round'
+									stroke-linejoin='round'
+									stroke-width='2'
+									class='w-10 h-10'
+									viewBox='0 0 24 24'
+								>
+									<path d='M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2'></path>
+									<circle cx='12' cy='7' r='4'></circle>
+								</svg>
+							</div>
+							<div class='flex-grow'>
+								<h2 class='text-white text-lg title-font font-medium mb-3'>
+									News Summaries
+								</h2>
+								<p class='leading-relaxed text-base'>
+									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
+									taxidermy. Gastropub indxgo juice poutine, ramps microdosing
+									banh mi pug VHS try-hard.
+								</p>
+								{/* <a class='mt-3 text-indigo-400 inline-flex items-center'>
+									Learn More
+									<svg
+										fill='none'
+										stroke='currentColor'
+										stroke-linecap='round'
+										stroke-linejoin='round'
+										stroke-width='2'
+										class='w-4 h-4 ml-2'
+										viewBox='0 0 24 24'
+									>
+										<path d='M5 12h14M12 5l7 7-7 7'></path>
+									</svg>
+								</a> */}
+							</div>
+						</div>
+						{/* Upcoming Feature 6 */}
+						<div class='p-4 md:w-1/3 flex flex-col text-center items-center'>
+							<div class='w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0'>
+								<svg
+									fill='none'
+									stroke='currentColor'
+									stroke-linecap='round'
+									stroke-linejoin='round'
+									stroke-width='2'
+									class='w-10 h-10'
+									viewBox='0 0 24 24'
+								>
+									<path d='M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2'></path>
+									<circle cx='12' cy='7' r='4'></circle>
+								</svg>
+							</div>
+							<div class='flex-grow'>
+								<h2 class='text-white text-lg title-font font-medium mb-3'>
+									X-Ray
+								</h2>
+								<p class='leading-relaxed text-base'>
+									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
+									taxidermy. Gastropub indxgo juice poutine, ramps microdosing
+									banh mi pug VHS try-hard.
+								</p>
+								{/* <a class='mt-3 text-indigo-400 inline-flex items-center'>
+									Learn More
+									<svg
+										fill='none'
+										stroke='currentColor'
+										stroke-linecap='round'
+										stroke-linejoin='round'
+										stroke-width='2'
+										class='w-4 h-4 ml-2'
+										viewBox='0 0 24 24'
+									>
+										<path d='M5 12h14M12 5l7 7-7 7'></path>
+									</svg>
+								</a> */}
 							</div>
 						</div>
 					</div>
 					<button class='flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
-						Button
+						Sign Up
 					</button>
 				</div>
 			</section>
 
 			<footer className='text-gray-400 bg-gray-900 body-font'>
 				<div className='container flex flex-col items-center px-5 py-8 mx-auto sm:flex-row'>
-					<a className='flex items-center justify-center font-medium text-white title-font md:justify-start'>
-						<svg
-							xmlns='http://www.w3.org/2000/svg'
-							fill='none'
-							stroke='currentColor'
-							strokeLinecap='round'
-							strokeLinejoin='round'
-							strokeWidth='2'
-							className='w-10 h-10 p-2 text-white bg-indigo-500 rounded-full'
-							viewBox='0 0 24 24'
-						>
-							<path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'></path>
-						</svg>
-						<span className='ml-3 text-xl'>Tailblocks</span>
-					</a>
+					<StaticImage
+						src='https://img.assetalchemy.io/LOGO_COLOR.png'
+						alt='Logo'
+						width={150}
+					/>
 					<p className='mt-4 text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0'>
-						© 2020 Tailblocks —
-						<a
-							href='https://twitter.com/knyttneve'
-							className='ml-1 text-gray-500'
-							target='_blank'
-							rel='noopener noreferrer'
-						>
-							@knyttneve
-						</a>
+						© 2022 Asset Alchemy
 					</p>
 					<span className='inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start'>
-						<a className='text-gray-400'>
+						{/* <a className='text-gray-400'>
 							<svg
 								fill='currentColor'
 								strokeLinecap='round'
@@ -368,7 +476,7 @@ const IndexPage = () => {
 								></path>
 								<circle cx='4' cy='4' r='2' stroke='none'></circle>
 							</svg>
-						</a>
+						</a> */}
 					</span>
 				</div>
 			</footer>
