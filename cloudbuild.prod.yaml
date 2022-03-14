@@ -8,8 +8,8 @@ steps:
     args: ["run", "build"]
 
   - name: "gcr.io/cloud-builders/gsutil"
-    args: ["-m", "rm", "gs://assetalchemy.io/**"]
+    args: ["-m", "rm", "gs://www.assetalchemy.io/**"]
 
   - name: "gcr.io/cloud-builders/gsutil"
     dir: "public"
-    args: ["-m", "cp", "-r", ".", "gs://assetalchemy.io/"]
+    args: ["-m", "cp", "-r", ".", "gs://www.assetalchemy.io/"]

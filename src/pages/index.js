@@ -1,5 +1,6 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
+import { Link } from "gatsby";
 
 const IndexPage = () => {
 	return (
@@ -47,9 +48,11 @@ const IndexPage = () => {
 								finding them.
 							</p>
 							<div className='flex justify-center'>
-								<button className='inline-flex px-6 py-2 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600'>
-									Try Beta!
-								</button>
+								<Link to='https://app.assetalchemy.io' title='Try Beta'>
+									<button className='inline-flex px-6 py-2 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600'>
+										Try Beta!
+									</button>
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -386,9 +389,11 @@ const IndexPage = () => {
 							</div>
 						</div>
 					</div>
-					<button class='flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
-						Try Beta!
-					</button>
+					<Link to='https://app.assetalchemy.io' title='Try Beta'>
+						<button class='flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
+							Try Beta!
+						</button>
+					</Link>
 				</div>
 			</section>
 
