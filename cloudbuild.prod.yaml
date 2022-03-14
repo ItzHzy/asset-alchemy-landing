@@ -7,6 +7,6 @@ steps:
     entrypoint: npm
     args: ["run", "build"]
 
-  - name: GCS
+  - name: gsutil
     entrypoint: gsutil
     args: ["-m", "cp", "-r", "public", "gs://www.assetalchemy.io/"]
