@@ -37,21 +37,18 @@ const IndexPage = () => {
 			<main>
 				{/* Main Hero */}
 				<section className='text-gray-400 bg-gray-900 body-font'>
-					<div className='container flex flex-col items-center justify-center px-5 py-24 mx-auto'>
+					<div className='container flex flex-col items-center justify-center px-5 pt-24 mx-auto'>
 						<div className='w-full text-center lg:w-2/3'>
-							<h1 className='mb-4 text-3xl font-medium text-white title-font sm:text-4xl'>
-								Microdosing synth tattooed vexillologist
+							<h1 className='mb-4 text-4xl font-medium text-white title-font sm:text-5xl'>
+								Never miss another trade again
 							</h1>
-							<p className='mb-8 leading-relaxed'>
-								Meggings kinfolk echo park stumptown DIY, kale chips beard
-								jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice
-								godard disrupt ramps hexagon mustache umami snackwave tilde
-								chillwave ugh. Pour-over meditation PBR&amp;B pickled ennui
-								celiac mlkshk freegan photo booth af fingerstache pitchfork.
+							<p className='mb-8 text-3xl leading-relaxed'>
+								We are building a tool that handles the hard part of trades,
+								finding them.
 							</p>
 							<div className='flex justify-center'>
 								<button className='inline-flex px-6 py-2 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600'>
-									Sign Up
+									Try Beta!
 								</button>
 							</div>
 						</div>
@@ -59,7 +56,7 @@ const IndexPage = () => {
 				</section>
 				{/* Feature 1 */}
 				<section class='text-gray-400 bg-gray-900 body-font'>
-					<div class='container mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
+					<div class='container mx-auto flex px-5 pt-24 md:flex-row flex-col items-center'>
 						<div class='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10'>
 							<StaticImage
 								src='../images/following.png'
@@ -70,11 +67,8 @@ const IndexPage = () => {
 							<h1 class='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
 								Follow your favorite tickers
 							</h1>
-							<p class='mb-8 leading-relaxed'>
-								Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-								air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-								park mlkshk tote bag selvage hot chicken authentic tumeric
-								truffaut hexagon try-hard chambray.
+							<p class='mb-8 leading-relaxed text-2xl'>
+								Stay updated on the newest news affecting your entire portfolio
 							</p>
 							<div class='flex justify-center'>
 								{/* <button class='inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
@@ -86,7 +80,7 @@ const IndexPage = () => {
 				</section>
 				{/* Feature 2 */}
 				<section class='text-gray-400 bg-gray-900 body-font'>
-					<div class='container mx-auto flex px-5 py-24 md:flex-row-reverse flex-col items-center'>
+					<div class='container mx-auto flex px-5 pt-24 md:flex-row-reverse flex-col items-center'>
 						<div class='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10'>
 							<StaticImage
 								src='../images/overview.png'
@@ -97,11 +91,8 @@ const IndexPage = () => {
 							<h1 class='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
 								View thousands of companies
 							</h1>
-							<p class='mb-8 leading-relaxed'>
-								Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-								air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-								park mlkshk tote bag selvage hot chicken authentic tumeric
-								truffaut hexagon try-hard chambray.
+							<p class='mb-8 leading-relaxed text-2xl'>
+								Discover the opportunity that exists in every company
 							</p>
 							<div class='flex justify-center'>
 								{/* <button class='inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
@@ -113,7 +104,7 @@ const IndexPage = () => {
 				</section>
 				{/* Feature 3 */}
 				<section class='text-gray-400 bg-gray-900 body-font'>
-					<div class='container mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
+					<div class='container mx-auto flex px-5 pt-24 md:flex-row flex-col items-center'>
 						<div class='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10'>
 							<StaticImage
 								src='../images/rule.png'
@@ -122,13 +113,10 @@ const IndexPage = () => {
 						</div>
 						<div class='lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'>
 							<h1 class='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
-								Create complex email alerts
+								Send alerts straight to your inbox
 							</h1>
-							<p class='mb-8 leading-relaxed'>
-								Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-								air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-								park mlkshk tote bag selvage hot chicken authentic tumeric
-								truffaut hexagon try-hard chambray.
+							<p class='mb-8 leading-relaxed text-2xl'>
+								Create complex alerts that trigger on any number of conditions
 							</p>
 							<div class='flex justify-center'>
 								{/* <button class='inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
@@ -147,10 +135,10 @@ const IndexPage = () => {
 						<h1 class='sm:text-3xl text-2xl font-medium title-font text-white mb-4'>
 							Upcoming Features
 						</h1>
-						<p class='text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80'>
-							Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-							taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh
-							mi pug.
+						<p class='text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80'>
+							Since we are in beta, we are continously adding new features and
+							improvements to enchance Asset Alchemy. Here are some features we
+							are currently developing.
 						</p>
 						<div class='flex mt-6 justify-center'>
 							<div class='w-16 h-1 rounded-full bg-indigo-500 inline-flex'></div>
@@ -178,9 +166,8 @@ const IndexPage = () => {
 									Enhanced Alerting
 								</h2>
 								<p class='leading-relaxed text-base'>
-									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-									taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-									banh mi pug VHS try-hard.
+									Even more customized alerts with options to send to Discord,
+									Slack, and more.
 								</p>
 								{/* <a class='mt-3 text-indigo-400 inline-flex items-center'>
 									Learn More
@@ -220,9 +207,8 @@ const IndexPage = () => {
 									Calendar
 								</h2>
 								<p class='leading-relaxed text-base'>
-									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-									taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-									banh mi pug VHS try-hard.
+									See all events affecting your portfolio in one simple
+									calendar.
 								</p>
 								{/* <a class='mt-3 text-indigo-400 inline-flex items-center'>
 									Learn More
@@ -261,9 +247,8 @@ const IndexPage = () => {
 									Competitions
 								</h2>
 								<p class='leading-relaxed text-base'>
-									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-									taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-									banh mi pug VHS try-hard.
+									Compete in paper-trading tournaments with other users to see
+									who is truly the best
 								</p>
 								{/* <a class='mt-3 text-indigo-400 inline-flex items-center'>
 									Learn More
@@ -302,9 +287,7 @@ const IndexPage = () => {
 									Create Positions
 								</h2>
 								<p class='leading-relaxed text-base'>
-									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-									taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-									banh mi pug VHS try-hard.
+									Explore the possible profit and risk for any given trade.
 								</p>
 								{/* <a class='mt-3 text-indigo-400 inline-flex items-center'>
 									Learn More
@@ -343,9 +326,8 @@ const IndexPage = () => {
 									News Summaries
 								</h2>
 								<p class='leading-relaxed text-base'>
-									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-									taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-									banh mi pug VHS try-hard.
+									Digest entire articles into a couple bullet points on what it
+									means for you.
 								</p>
 								{/* <a class='mt-3 text-indigo-400 inline-flex items-center'>
 									Learn More
@@ -384,9 +366,8 @@ const IndexPage = () => {
 									X-Ray
 								</h2>
 								<p class='leading-relaxed text-base'>
-									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-									taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-									banh mi pug VHS try-hard.
+									Search for keywords or phrases in thousands of financial
+									statements, transcripts, and reports
 								</p>
 								{/* <a class='mt-3 text-indigo-400 inline-flex items-center'>
 									Learn More
@@ -406,7 +387,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 					<button class='flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
-						Sign Up
+						Try Beta!
 					</button>
 				</div>
 			</section>
