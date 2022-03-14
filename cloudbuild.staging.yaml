@@ -10,4 +10,4 @@ steps:
 artifacts:
   objects:
     location: "gs://staging.www.assetalchemy.io/"
-    path: ["./public/*"]
+    paths: ["./public/*"]
