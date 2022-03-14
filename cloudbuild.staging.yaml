@@ -7,7 +7,6 @@ steps:
     entrypoint: npm
     args: ["run", "build"]
 
-artifacts:
-  objects:
-    location: "gs://staging.assetalchemy.io/"
-    paths: ["./public/*"]
+  - name: gsutil
+    entrypoint: gsutil
+    args: ["-m", "cp", "-r", "public", "gs://staging.assetalchemy.io/"]
