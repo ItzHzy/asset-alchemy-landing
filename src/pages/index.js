@@ -1,10 +1,14 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import { Link } from "gatsby";
+import { Helmet } from "react-helmet";
 
 const IndexPage = () => {
 	return (
 		<>
+			<Helmet>
+				<title>Asset Alchemy</title>
+			</Helmet>
 			<header className='text-gray-400 bg-gray-900 body-font'>
 				<div className='container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row'>
 					<StaticImage
@@ -47,10 +51,18 @@ const IndexPage = () => {
 								We are building a tool that handles the hard part of trades,
 								finding them.
 							</p>
-							<div className='flex justify-center'>
+							<div className='flex justify-center gap-20'>
 								<Link to='https://app.assetalchemy.io' title='Try Beta'>
-									<button className='inline-flex px-6 py-2 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600'>
+									<button class='flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
 										Try Beta!
+									</button>
+								</Link>
+								<Link
+									to='https://buy.stripe.com/dR6eYfaXT2En5Ak5kk'
+									title='Preorder'
+								>
+									<button class='flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
+										Preorder!
 									</button>
 								</Link>
 							</div>
@@ -389,11 +401,21 @@ const IndexPage = () => {
 							</div>
 						</div>
 					</div>
-					<Link to='https://app.assetalchemy.io' title='Try Beta'>
-						<button class='flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
-							Try Beta!
-						</button>
-					</Link>
+					<div className='flex justify-center gap-20'>
+						<Link to='https://app.assetalchemy.io' title='Try Beta'>
+							<button class='flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
+								Try Beta!
+							</button>
+						</Link>
+						<Link
+							to='https://buy.stripe.com/dR6eYfaXT2En5Ak5kk'
+							title='Preorder'
+						>
+							<button class='flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
+								Preorder!
+							</button>
+						</Link>
+					</div>
 				</div>
 			</section>
 
